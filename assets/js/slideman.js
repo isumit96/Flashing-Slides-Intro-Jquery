@@ -68,7 +68,7 @@
 					
 					case "top" :	var css_at = {"top":"-100%","display":"block"};
 									
-									$(currentChild).css(css_at); alert(direc); // Applying css based on transition direction.
+									$(currentChild).css(css_at); // Applying css based on transition direction.
 									 
 									var ani_aa = {top:slowdowndist,opacity:"1"};
 									var ani_ab = {top: "-0%"};
