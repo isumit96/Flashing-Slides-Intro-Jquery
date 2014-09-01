@@ -18,7 +18,7 @@
 			
 			'direction': 'random', // Can be top, bottom or right
 			'slowdowndist':  '-30%', // Distance from where the slide slows down.
-			'autoSpeed': 4000, // Speed before slowing down.
+			'autospeed': 4000, // Speed before slowing down.
 			'slowdownSpeed': 2000 // Speed after slowing down.
 			
 		};
@@ -35,7 +35,7 @@
 		var speed = opt.speed;
 		var slowdowndist = opt.slowdowndist;
 		var slowdownSpeed = opt.slowdownSpeed;
-		var autoSpeed = opt.autoSpeed;
+		var autospeed = opt.autospeed;
 		
 		var children = []; // Declaring an array to put the elements inside.
 		
@@ -73,7 +73,7 @@
 									var ani_aa = {top:slowdowndist,opacity:"1"};
 									var ani_ab = {top: "-0%"};
 									
-									$(currentChild).animate(ani_aa, autoSpeed ).animate(ani_ab, slowdownSpeed,function(){
+									$(currentChild).animate(ani_aa, autospeed ).animate(ani_ab, slowdownSpeed,function(){
 						
 										$(this).animate({ left: "-100%",opacity:"0"},500,function(){
 				
@@ -92,7 +92,7 @@
 									var ani_ba = {bottom:slowdowndist,opacity:"1"};
 									var ani_bb = {bottom: "-0%"};
 									 
-									$(currentChild).animate(ani_ba, autoSpeed ).animate(ani_bb, slowdownSpeed,function(){
+									$(currentChild).animate(ani_ba, autospeed ).animate(ani_bb, slowdownSpeed,function(){
 						
 										$(this).animate({ left: "-100%",opacity:"0"},500,function(){
 				
@@ -112,7 +112,7 @@
 									var ani_cb = {right: "-0%"};
 						
 										
-									$(currentChild).animate(ani_ca, autoSpeed ).animate(ani_cb, slowdownSpeed,function(){
+									$(currentChild).animate(ani_ca, autospeed ).animate(ani_cb, slowdownSpeed,function(){
 						
 										$(this).animate({ left: "-100%",opacity:"0"},500,function(){
 				
