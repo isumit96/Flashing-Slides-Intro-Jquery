@@ -20,11 +20,10 @@ Coming soon
 * Lots of options and callbacks to modify slidshow.
 * Random or same direction of slides.
 * Minimal size (the plugin is only of 4 Kbs).
-* Not just limited to <div>, can be used with other elements too.
+* Not just limited to div, can be used with other elements too.
 * Supports images, youtube videos, text, anything.
 
 # USAGE
-
 	
 Javascript
 ```sh
@@ -55,5 +54,5 @@ Time taken to cover upto slowdowndist.
 * `slowdownSpeed` [boolean, default: 2000]
 Time taken to complete after slowdowndist.
 
-UPDATES/FEEDBACK & BUGS
+# UPDATES/FEEDBACK & BUGS
 If you found a bug, check out for updates or anything else on this project please visit the Flashing-Slides-Intro-Jquery Project Page on Github and post it there under "issues".
